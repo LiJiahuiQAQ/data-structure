@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.linear-list/1.linear-list.iml" filepath="$PROJECT_DIR$/1.linear-list/1.linear-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.json/2.json.iml" filepath="$PROJECT_DIR$/2.json/2.json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.search/3.search.iml" filepath="$PROJECT_DIR$/3.search/3.search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.sort/4.sort.iml" filepath="$PROJECT_DIR$/4.sort/4.sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structure.iml" filepath="$PROJECT_DIR$/data-structure.iml" />
     </modules>
   </component>
