@@ -12,17 +12,14 @@ public class MergeSort {
     * @return: void 
     * @Author: Li Jiahui
     * @Date: 2018/12/16 
-    */ 
+    */
     public static void main(String args[]){
 
        int [] array={4,5,7,4,2,6};
-
        sort(array);
-
        for(int i=0;i<array.length;i++){
            System.out.println(array[i]);
        }
-
 
     }
 
@@ -34,7 +31,9 @@ public class MergeSort {
     * @Date: 2018/12/16 
     */ 
     public static void sort(int array[]){
+
         mergeSort(array,0,array.length-1);
+
     }
 
     /** 
@@ -50,9 +49,7 @@ public class MergeSort {
         if(low<high){
            mergeSort(array,low,middle);
            mergeSort(array,middle+1,high);
-
            merge(array,low,middle+1,high);
-
         }
 
     }
@@ -67,7 +64,6 @@ public class MergeSort {
     public static void merge(int array[],int low ,int middle,int high){
 
         int [] help=new int [array.length];
-
         for(int i=0;i<array.length;i++){
             help[i]=array[i];
         }
@@ -75,7 +71,6 @@ public class MergeSort {
         int left=low;
         int right=middle;
         int current=low;
-
         while(left<=middle&&right<=high){
             if(help[left]<=help[right]){
                 array[current++]=help[left++];
@@ -89,10 +84,5 @@ public class MergeSort {
         for(int i=0;i<remain;i++){
             array[current++]=help[left++];
         }
-
-
-
     }
-
-
 }

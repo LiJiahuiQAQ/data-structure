@@ -46,7 +46,6 @@ public class BinarySearch {
             return middle;
         }
 
-
     }
 
     /** 
@@ -57,8 +56,10 @@ public class BinarySearch {
     * @Date: 2018/12/15 
     */ 
     public static void main(String args[]){
+
         int a[]={1,3,4,5,6,7,8,9};
         System.out.println(binarySearch(3,a));
+
     }
 
 }
